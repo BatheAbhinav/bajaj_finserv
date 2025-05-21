@@ -26,9 +26,9 @@ public class BFHLApplication implements CommandLineRunner {
         // Step 1: Send POST to generateWebhook
         String registrationUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
         Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", "John Doe");
-        requestBody.put("regNo", "REG12347");
-        requestBody.put("email", "john@example.com");
+        requestBody.put("name", "Abhinav");
+        requestBody.put("regNo", "1032222447");
+        requestBody.put("email", "1032222447@mitwpu.edu.in");
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
